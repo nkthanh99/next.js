@@ -12,7 +12,7 @@ if [[ -z "$NPM_TOKEN" ]];then
   exit 0;
 fi
 
-echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+echo "//npm.pkg.github.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
 
 if [[ $(git describe --exact-match 2> /dev/null || :) =~ -canary ]];
 then
