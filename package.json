@@ -1,6 +1,6 @@
 {
   "name": "nextjs-project",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
