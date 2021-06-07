@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-next",
-  "version": "10.2.6",
+  "version": "10.2.7",
   "description": "ESLint configuration used by NextJS.",
   "main": "index.js",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "directory": "packages/eslint-config-next"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "10.2.6",
+    "@next/eslint-plugin-next": "10.2.7",
     "@rushstack/eslint-patch": "^1.0.6",
     "@typescript-eslint/parser": "^4.20.0",
     "eslint-import-resolver-node": "^0.3.4",
@@ -27,5 +27,6 @@
     "typescript": {
       "optional": true
     }
-  }
+  },
+  "gitHead": "749800c08be8791f659d6b418bfc63772f0ccc21"
 }

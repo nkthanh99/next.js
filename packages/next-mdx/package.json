@@ -1,6 +1,6 @@
 {
   "name": "@next/mdx",
-  "version": "10.2.6",
+  "version": "10.2.7",
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -10,5 +10,6 @@
   "peerDependencies": {
     "@mdx-js/loader": ">=0.15.0",
     "@mdx-js/react": "*"
-  }
+  },
+  "gitHead": "749800c08be8791f659d6b418bfc63772f0ccc21"
 }

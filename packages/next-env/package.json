@@ -1,6 +1,6 @@
 {
   "name": "@next/env",
-  "version": "10.2.6",
+  "version": "10.2.7",
   "keywords": [
     "react",
     "next",
@@ -33,5 +33,6 @@
     "@zeit/ncc": "0.20.4",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0"
-  }
+  },
+  "gitHead": "749800c08be8791f659d6b418bfc63772f0ccc21"
 }

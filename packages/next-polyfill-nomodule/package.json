@@ -1,6 +1,6 @@
 {
   "name": "@next/polyfill-nomodule",
-  "version": "10.2.6",
+  "version": "10.2.7",
   "description": "A polyfill for non-dead, nomodule browsers.",
   "main": "dist/polyfill-nomodule.js",
   "license": "MIT",
@@ -17,5 +17,6 @@
     "microbundle": "0.13.0",
     "object-assign": "4.1.1",
     "whatwg-fetch": "3.0.0"
-  }
+  },
+  "gitHead": "749800c08be8791f659d6b418bfc63772f0ccc21"
 }
