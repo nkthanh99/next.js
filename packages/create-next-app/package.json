@@ -1,6 +1,6 @@
 {
   "name": "create-next-app",
-  "version": "10.2.9",
+  "version": "10.2.10",
   "keywords": [
     "react",
     "next",
@@ -50,5 +50,5 @@
   "engines": {
     "node": ">=12.0.0"
   },
-  "gitHead": "1effe3f03e2b9a1010bf73c6a9f218f40fbdbef9"
+  "gitHead": "d51c09efe5478fbbba26240c967613a4723b7eeb"
 }

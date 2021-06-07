@@ -1,6 +1,6 @@
 {
   "name": "@next/react-dev-overlay",
-  "version": "10.2.9",
+  "version": "10.2.10",
   "description": "A development-only overlay for developing React applications.",
   "repository": {
     "url": "vercel/next.js",
@@ -32,5 +32,5 @@
     "react": "^16.9.0 || ^17",
     "react-dom": "^16.9.0 || ^17"
   },
-  "gitHead": "1effe3f03e2b9a1010bf73c6a9f218f40fbdbef9"
+  "gitHead": "d51c09efe5478fbbba26240c967613a4723b7eeb"
 }
