@@ -1,6 +1,6 @@
 {
   "name": "next",
-  "version": "10.2.4",
+  "version": "10.2.5",
   "description": "The React Framework",
   "main": "./dist/server/next.js",
   "license": "MIT",
