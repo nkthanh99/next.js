@@ -1,6 +1,6 @@
 {
   "name": "@next/polyfill-module",
-  "version": "10.2.7",
+  "version": "10.2.8",
   "description": "A standard library polyfill for ES Modules supporting browsers (Edge 16+, Firefox 60+, Chrome 61+, Safari 10.1+)",
   "main": "dist/polyfill-module.js",
   "license": "MIT",
@@ -15,5 +15,5 @@
   "devDependencies": {
     "microbundle": "0.13.0"
   },
-  "gitHead": "749800c08be8791f659d6b418bfc63772f0ccc21"
+  "gitHead": "1effe3f03e2b9a1010bf73c6a9f218f40fbdbef9"
 }

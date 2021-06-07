@@ -1,6 +1,6 @@
 {
   "name": "@next/codemod",
-  "version": "10.2.7",
+  "version": "10.2.8",
   "license": "MIT",
   "dependencies": {
     "chalk": "4.1.0",
@@ -21,5 +21,5 @@
     "test": "jest"
   },
   "bin": "./bin/next-codemod.js",
-  "gitHead": "749800c08be8791f659d6b418bfc63772f0ccc21"
+  "gitHead": "1effe3f03e2b9a1010bf73c6a9f218f40fbdbef9"
 }

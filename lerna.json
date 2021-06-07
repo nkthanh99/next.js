@@ -2,7 +2,7 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "packages": [
-    "packages/*"
+    "packages/next"
   ],
   "command": {
     "version": {
@@ -14,8 +14,8 @@
         "master",
         "canary"
       ],
-      "registry": "https://github.com"
+      "registry": "https://github.com/magiskboy"
     }
   },
-  "version": "10.2.7"
+  "version": "10.2.8"
 }

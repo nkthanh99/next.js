@@ -1,6 +1,6 @@
 {
   "name": "@next/bundle-analyzer",
-  "version": "10.2.7",
+  "version": "10.2.8",
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -10,5 +10,5 @@
   "dependencies": {
     "webpack-bundle-analyzer": "4.3.0"
   },
-  "gitHead": "749800c08be8791f659d6b418bfc63772f0ccc21"
+  "gitHead": "1effe3f03e2b9a1010bf73c6a9f218f40fbdbef9"
 }
