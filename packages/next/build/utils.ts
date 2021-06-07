@@ -51,11 +51,13 @@ const fsStat = (file: string) => {
 
 export function collectPages(
   directory: string,
-  pageExtensions: string[]
+  pageExtensions: string[],
+  pageIgnore?: RegExp
 ): Promise<string[]> {
   return recursiveReadDir(
     directory,
-    new RegExp(`\\.(?:${pageExtensions.join('|')})$`)
+    new RegExp(`\\.(?:${pageExtensions.join('|')})$`),
+    pageIgnore
   )
 }
 

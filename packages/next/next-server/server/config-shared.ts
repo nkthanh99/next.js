@@ -73,6 +73,7 @@ export const defaultConfig: NextConfig = {
   generateBuildId: () => null,
   generateEtags: true,
   pageExtensions: ['tsx', 'ts', 'jsx', 'js'],
+  pageIgnore: '/^_.*$/',
   target: 'server',
   poweredByHeader: true,
   compress: true,

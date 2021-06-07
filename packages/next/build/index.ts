@@ -233,7 +233,9 @@ export default async function build(
 
     const pagePaths: string[] = await nextBuildSpan
       .traceChild('collect-pages')
-      .traceAsyncFn(() => collectPages(pagesDir, config.pageExtensions))
+      .traceAsyncFn(() =>
+        collectPages(pagesDir, config.pageExtensions, config.pageIgnore)
+      )
 
     // needed for static exporting since we want to replace with HTML
     // files
