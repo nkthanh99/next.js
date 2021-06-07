@@ -2,6 +2,7 @@
 import { ParsedUrlQuery } from 'querystring'
 import { ComponentType } from 'react'
 import { UrlObject } from 'url'
+import getConfig from '../runtime-config'
 import {
   normalizePathTrailingSlash,
   removePathTrailingSlash,
@@ -1575,6 +1576,16 @@ export default class Router implements BaseRouter {
     const cancel = (this.clc = () => {
       cancelled = true
     })
+
+    const { publicRuntimeConfig } = getConfig()
+    if (!!publicRuntimeConfig.secondaryPage) {
+      const manifest = await getClientBuildManifest()
+      const defaultRoute = route.replace(
+        new RegExp('^/[^/]*'),
+        '/' + publicRuntimeConfig.secondaryPage
+      )
+      route = route in manifest ? route : defaultRoute
+    }
 
     const componentResult = await this.pageLoader.loadPage(route)
 
